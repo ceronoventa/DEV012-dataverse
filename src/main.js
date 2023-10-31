@@ -7,3 +7,5 @@ console.log(example, renderItems(data), data);
 
 const root = document.querySelector('#root');
 root.innerHTML = renderItems(data);
+
+const alineacionSelect = document.getElementById("alineacion");

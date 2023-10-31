@@ -2,21 +2,43 @@
 <html>
   <head>
       <meta charset="utf-8">
-      <title>X-MEN</title>
-      <link rel="stylesheet" type="text/css" href="style.css" />
+
+      <title>XMEN</title>
+
+      <link rel="stylesheet"  href="style.css" />
     </head>
     <body>
-      <img src="xmenfondo.jpg" class="fondo">
-      <h1>Personajes icónicos</h1>
-      <section class="flex-container">
-        <div class="caja">
-          caja 1
-        </div>
-        <div class="caja2">
-          caja 2
-        </div>
+
+      <header>
+        <h1>XMEN WORLD</h1>
+      </header>
+
+      <main> <h2>Elige personaje</h2></main>
+
+<!-- seccion de fltros  La etiqueta se crea con el elemento <label> y generalmente se coloca junto al elemento 
+  de formulario que se está describiendo. Puedes asociar un label a un elemento de formulario utilizando el 
+  atributo for en la etiqueta <label> y el atributo id en el elemento de formulario. De esta manera, 
+    cuando el usuario hace clic en la etiqueta, se activa el elemento de formulario al que está asociada.-->
+      <section>
+
+        <label for = "alineacion-select">filtrar por</label>
+
+        <select name="alineacion-select" id="alineacion-select">
+          <option value="Héroe (X-Men)">Héroe (X-Men)</option>
+          <option value="Villano">Villano</option>
+          <option value="Neutral">Neutral</option>
+        </select>
+
+        <ul id="personajes"></ul>
+      
       </section>
+      <img src="imagesdata/futuro.jpeg" class="fondo">
+     
       <div id ="root" ></div>
+
+      <footer>
+         By Camila Palma
+        </footer>
       <script src="main.js" type="module"></script>
     </body>
   </html>
