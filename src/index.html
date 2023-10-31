@@ -9,11 +9,9 @@
     </head>
     <body>
 
-      <header>
-        <h1>XMEN WORLD</h1>
-      </header>
-
-      <main> <h2>Elige personaje</h2></main>
+      <header><h1 name="titulo">XMEN WORLD</h1></header>
+<main> 
+  <h2>Elige personaje</h2></main>
 
 <!-- seccion de fltros  La etiqueta se crea con el elemento <label> y generalmente se coloca junto al elemento 
   de formulario que se está describiendo. Puedes asociar un label a un elemento de formulario utilizando el 
@@ -29,10 +27,15 @@
           <option value="Neutral">Neutral</option>
         </select>
 
-        <ul id="personajes"></ul>
+        <select>
+          <option value="asc">A - Z</option>
+          <option value="desc">Z - A</option>
+        </select>
+                <button data-testid="button-clear">Limpiar</button>
+        
       
       </section>
-      <img src="imagesdata/futuro.jpeg" class="fondo">
+
      
       <div id ="root" ></div>
 

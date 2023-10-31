@@ -9,13 +9,10 @@ export const renderItems = (data) => {
     tarjetas += ` 
     <li>
 
-      <dl itemscope itemtype="https://schema.org/Superhero">
+      <dl itemscope itemtype="xmen">
         <img src="${personaje.imageUrl}" alt="${personaje.name}" itemprop="image" />
         <dt>Nombre:</dt><dd itemprop="name">${personaje.name}</dd>
-        <dt>Descripción:</dt><dd itemprop="description">${personaje.description}</dd>
         <dt>Alineación:</dt><dd itemprop="alignment">${personaje.facts.alignment}</dd>
-        <dt>Género:</dt><dd itemprop="gender">${personaje.facts.gender}</dd>
-        <dt>Poderes:</dt><dd itemprop="powers">${personaje.facts.powers}</dd>
       </dl>
       </li>
     `;

@@ -1,15 +1,18 @@
 
-h1  {
-text-align: center;
-color:aliceblue;
-font-size: medium;
+
+.body {
+background-image: url(imagesdata/futuro.jpeg);
+}
+
+#root {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 10px;
+ gap: 24px;
+
 }
 
 
-body {
-    background-image: url(imagesdata/futuro.jpeg);
- 
-  }
 
 
 footer {
