@@ -1,14 +1,20 @@
 
 
-.body {
-background-image: url(imagesdata/futuro.jpeg);
+body {
+    background-image: url('./imagesdata/futuro.jpeg');
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    color: rgb(252, 251, 249);
 }
 
 #root {
  display: flex;
+ max-width: 1200px;
+ margin: auto;
  flex-wrap: wrap;
- padding: 10px;
- gap: 24px;
+ padding: 40px 0;
+ gap: 20px;
 
 }
 

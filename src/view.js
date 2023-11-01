@@ -12,6 +12,7 @@ export const renderItems = (data) => {
       <dl itemscope itemtype="xmen">
         <img src="${personaje.imageUrl}" alt="${personaje.name}" itemprop="image" />
         <dt>Nombre:</dt><dd itemprop="name">${personaje.name}</dd>
+        <dt>Descripción:</dt><dd itemprop="shortDescription">${personaje.description}</dd>
         <dt>Alineación:</dt><dd itemprop="alignment">${personaje.facts.alignment}</dd>
       </dl>
       </li>

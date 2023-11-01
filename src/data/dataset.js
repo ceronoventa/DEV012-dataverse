@@ -35,7 +35,7 @@ export default [
         name: "Bolivar Trask",
         shortDescription: "Científico y creador de los Centinelas, máquinas diseñadas para cazar mutantes.",
         description: "Bolivar Trask es un científico obsesionado con la creación de los Centinelas, máquinas destinadas a contener a los mutantes. Su papel es complejo y a menudo antagónico.",
-        imageUrl: "./imagesdata/BolivarTrask.jpg",
+        imageUrl: "./imagesdata/Bolivar Trask.jpg",
         facts: {
           alignment: "Neutral",
         }
@@ -85,7 +85,7 @@ export default [
         name: "Kitty Pryde",
         shortDescription: "Puede atravesar objetos sólidos y es experta en computadoras.",
         description: "Kitty Pryde, también conocida como Shadowcat, tiene la habilidad única de atravesar objetos sólidos y es una experta en sistemas informáticos.",
-        imageUrl: "./imagesdata/KittyPryde.jpg",
+        imageUrl: "./imagesdata/Kitty Pryde.jpg",
         facts: {
           alignment: "Héroe (X-Men)",
         }
