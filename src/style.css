@@ -1,9 +1,9 @@
 
 
 body {
-    background-image: url('./imagesdata/futuro.jpeg');
     background-position: center;
     background-size: cover;
+    background-image: url('./imagesdata/futuro.jpeg');
     font-family: sans-serif;
     color: rgb(252, 251, 249);
 }

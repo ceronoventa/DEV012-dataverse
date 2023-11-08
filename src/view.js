@@ -1,6 +1,4 @@
 export const renderItems = (data) => {
-  console.log(data)
- 
   // Aquí creamos un string para almacenar las tarjetas de personajes.
   let tarjetas = "";
   // Recorremos el arreglo de datos para generar una tarjeta para cada personaje.
