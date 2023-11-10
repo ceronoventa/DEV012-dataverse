@@ -17,14 +17,14 @@ export function filterData(data, filterBy, value) {
 //return 0;
 //}
 export function sortData(data, alfabetico, sortOrder) {
-//data.sort((a, b) => a.localeCompare(b));
+  
+
+  //data.sort((a, b) => a.localeCompare(b));
   if (sortOrder === "asc"){
-    return data.sort((a, b) => a[alfabetico].localCompare(b[alfabetico]))
+    return data.sort((a, b) => a[alfabetico].localeCompare(b[alfabetico]))
   } else if (sortOrder === "desc"){
-    return data.sort((a, b) => b[alfabetico].localCompare(b[alfabetico]));
+    return data.sort((a, b) => b[alfabetico].localeCompare(a[alfabetico]));
   } else {
     return data; 
   }
 } 
-
-

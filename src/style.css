@@ -3,22 +3,28 @@
 body {
     background-position: center;
     background-size: cover;
-    background-image: url('./imagesdata/futuro.jpeg');
+    background-image: url('imagesdata/futuro.jpeg');
     font-family: sans-serif;
     color: rgb(252, 251, 249);
 }
 
-#root {
- display: flex;
- max-width: 1200px;
- margin: auto;
- flex-wrap: wrap;
- padding: 40px 0;
- gap: 20px;
-
+img{
+    display: block;
+    object-fit: cover;
+    width: 90px;
+    height: 130px;
+    border-radius: 60px;
+    box-shadow: 2px 17px 10px 0px; 
 }
 
+#container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    flex-direction: row;
 
+}
 
 
 footer {
