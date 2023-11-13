@@ -1,5 +1,3 @@
-
-
 body {
     background-position: center;
     background-size: cover;
@@ -8,7 +6,7 @@ body {
     color: rgb(252, 251, 249);
 }
 
-img{
+img {
     display: block;
     object-fit: cover;
     width: 90px;
@@ -17,15 +15,22 @@ img{
     box-shadow: 2px 17px 10px 0px; 
 }
 
-#container {
-    flex-direction: column;
-    align-items: center;
+.container {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-direction: column-reverse;
-    flex-direction: row;
-
 }
 
+.container img {
+    margin: 10px; /* Espaciado entre las imágenes */
+    width: calc(33.33% - 20px); /* Ajusta el ancho y resta el margen */
+}
+
+.li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} 
 
 footer {
     width: 100%;
