@@ -5,7 +5,7 @@ export const renderItems = (data) => {
   data.forEach(personaje => {
     
     tarjetas += ` 
-    <li>
+    <li class="tarjetita">
 
       <dl itemscope itemtype="xmen">
         <img src="${personaje.imageUrl}" alt="${personaje.name}" itemprop="image" />
@@ -18,5 +18,5 @@ export const renderItems = (data) => {
   }
   )
   // Finalmente, retornamos el conjunto de tarjetas como una cadena HTML.
-  return `<ul>${tarjetas}</ul>`;
+  return `<ul class="mamatarjetitas">${tarjetas}</ul>`;
 };

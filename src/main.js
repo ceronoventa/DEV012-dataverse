@@ -8,7 +8,7 @@ import data from './data/dataset.js';
 
 const root = document.querySelector('#root'); //id contenedor de tarjetas
 root.innerHTML = renderItems(data);
-const manipulatedData = data
+const manipulatedData = [...data]
 //root contenedor lista de elementos
 //Filtro alineación escribirlo en ingles
 const selectFiltro = document.querySelector("select[name='alignment']")

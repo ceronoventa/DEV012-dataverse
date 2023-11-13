@@ -214,7 +214,7 @@ export default [
     id: "rogue",
     name: "Rogue",
     shortDescription: "Tiene la habilidad de absorber los poderes, recuerdos y habilidades de cualquier persona que toque.",
-    description: "Rogue es un personaje de los X-Men con la capacidad de absorber los poderes, recuerdos y habilidades de cualquier persona que toque, lo que la ha llevado a luchar con problemas de control y conexión emocional. A pesar de los desafíos que enfrenta debido a su poder, Rogue es una miembro valiosa de los X-Men y ha desempeñado un papel crucial en numerosas misiones y batallas.",
+    description: "Rogue es un personaje de los X-Men con la capacidad de absorber los poderes, recuerdos y habilidades de cualquier persona que toque.",
     imageUrl: "./imagesdata/rogue.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
