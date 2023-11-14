@@ -8,37 +8,27 @@
       <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-      
-
       <div class="contenedor">
-<div class="contenedor-tarjetas">
-</div>
-
+        <div class="contenedor-tarjetas"></div>
       </div>
-
-      <header><h1 name="titulo">  XMEN </h1></header>
-<main> 
-  <h2>Elige un personaje</h2></main>
-
-      <section>
-
-        <label for = "filtros">filtrar por</label>
-
-        <select name="alignment" data-testid="select-filter">
-          <option value="Héroe (X-Men)">Héroe (X-Men)</option>
-          <option value="Villano">Villano</option>
-          <option value="Neutral">Neutral</option>
-        </select>
-
-        <label>Orden</label>
-        <select name="name" data-testid="select-sort">
-          <option value="asc">A - Z</option>
-          <option value="desc">Z - A</option>
-        </select>
-                <button data-testid="button-clear">Limpiar</button>
-        
-      
-      </section>
+      <main>
+        <header><img src="./imagesdata/xmen.png" alt="xmen"/></header>
+        <h2>Elige un personaje</h2>
+        <section>
+          <label for = "filtros">Filtrar por</label>
+          <select name="alignment" data-testid="select-filter">
+            <option value="Héroe (X-Men)">Héroe (X-Men)</option>
+            <option value="Villano">Villano</option>
+            <option value="Neutral">Neutral</option>
+          </select>
+          <label>Ordenar por</label>
+          <select name="name" data-testid="select-sort">
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
+          </select>
+          <button data-testid="button-clear">Limpiar</button>
+        </section>
+      </main>
 
      
       <div id ="root" ></div>

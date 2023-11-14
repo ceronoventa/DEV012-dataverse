@@ -1,8 +1,7 @@
 export const renderItems = (data) => {
   // Aquí creamos un string para almacenar las tarjetas de personajes.
   let tarjetas = "";
-  const tarjetasWidth = 100; // Ancho en píxeles
-  const tarjetasHeight = 150; // Altura en píxeles
+  
   // Recorremos el arreglo de datos para generar una tarjeta para cada personaje.
   data.forEach(personaje => {
     

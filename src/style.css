@@ -11,19 +11,25 @@ body {
 
 h1 {
     font-size: 2em; /* Ajusta el tamaño según tus preferencias */
-    color: #333; /* Ajusta el color según tus preferencias */
+    color: #fcfafa; /* Ajusta el color según tus preferencias */
     text-align: center;
     padding-bottom: 5vh;
     padding-top: 5vh;
   }
 
 img {
-   max-width: 100%;
-   max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 label {
     font-size: large;
+    color: antiquewhite;
+    margin-right: 20px;
+    margin-left: 20%;
+    font-style: normal;
+    font-family: "Arial";
+    font-weight: bold;
 }
 
 select {
@@ -32,9 +38,20 @@ select {
     font-style: normal;
 }
 
+button {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
 h2 {
-    padding-left: 5vh;
+   display: flex;
+   justify-content: center;
     color: aliceblue;
+}
+
+section {
+   display: flex;
+   justify-content: center;
 }
 
 ul {
@@ -43,7 +60,10 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    list-style: none;
 }
+
+
 
 .card {
     position: relative;

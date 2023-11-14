@@ -5,7 +5,7 @@ export default [
     name: "Bestia",
     shortDescription: "Mutante con habilidades físicas sobrehumanas y un intelecto genio.",
     description: "Bestia es conocido por su fuerza sobrehumana, agilidad y un intelecto brillante. Ha sido un valioso miembro de los X-Men.",
-    imageUrl: "./imagesdata/bestia.jpg",
+    imageUrl: "./imagesdata/beast.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -25,7 +25,7 @@ export default [
     name: "Blink",
     shortDescription: "Mutante con la capacidad de crear portales teleportadores.",
     description: "Blink es conocida por su habilidad para abrir portales teleportadores, permitiendo viajes instantáneos a través de distancias.",
-    imageUrl: "./imagesdata/blink.jpg",
+    imageUrl: "./imagesdata/blink2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -65,7 +65,7 @@ export default [
     name: "Havok",
     shortDescription: "Hermano de Cíclope con la capacidad de controlar la energía cósmica.",
     description: "Havok, hermano de Cíclope, puede manipular y controlar la energía cósmica para diversos fines, convirtiéndose en un valioso miembro de los X-Men.",
-    imageUrl: "./imagesdata/Havok.jpg",
+    imageUrl: "./imagesdata/havok2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -75,7 +75,7 @@ export default [
     name: "Iceman",
     shortDescription: "Puede crear hielo y bajar la temperatura a su alrededor.",
     description: "Iceman tiene el poder de manipular el hielo, creando estructuras heladas y reduciendo la temperatura en su entorno.",
-    imageUrl: "./imagesdata/Iceman.jpg",
+    imageUrl: "./imagesdata/iceman2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -85,7 +85,7 @@ export default [
     name: "Kitty Pryde",
     shortDescription: "Puede atravesar objetos sólidos y es experta en computadoras.",
     description: "Kitty Pryde, también conocida como Shadowcat, tiene la habilidad única de atravesar objetos sólidos y es una experta en sistemas informáticos.",
-    imageUrl: "./imagesdata/Kitty Pryde.jpg",
+    imageUrl: "./imagesdata/kitty2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -95,7 +95,7 @@ export default [
     name: "Magneto",
     shortDescription: "Maestro del magnetismo y líder de la Hermandad de Mutantes.",
     description: "Magneto es un poderoso mutante con la capacidad de controlar el magnetismo. A veces líder de la Hermandad de Mutantes, su relación con los X-Men es compleja.",
-    imageUrl: "./imagesdata/Magneto.jpg",
+    imageUrl: "./imagesdata/magneto2.jpg",
     facts: {
       alignment: "Villano",
     }
@@ -105,7 +105,7 @@ export default [
     name: "Gambito",
     shortDescription: "Capaz de cargar objetos con energía explosiva y experto en combate.",
     description: "Gambito posee la habilidad de cargar objetos con energía explosiva y es un hábil luchador cuerpo a cuerpo. Es un valioso miembro de los X-Men.",
-    imageUrl: "./imagesdata/Gambito.jpg",
+    imageUrl: "./imagesdata/gambito2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -115,7 +115,7 @@ export default [
     name: "Mystique",
     shortDescription: "Mystique puede cambiar de forma.",
     description: "Mystique tiene la capacidad única de cambiar su apariencia física a voluntad.",
-    imageUrl: "./imagesdata/Jean grey   Mystique.jpg",
+    imageUrl: "./imagesdata//mystique2.jpg",
     facts: {
       alignment: "Neutral",
     }
@@ -125,7 +125,7 @@ export default [
     name: "Profesor X",
     shortDescription: "Líder de los X-Men y poderoso telepata.",
     description: "Profesor X es el fundador y líder de los X-Men, con habilidades telepáticas extraordinarias. Su visión es unir a mutantes y humanos en armonía.",
-    imageUrl: "./imagesdata/Profesor X.jpg",
+    imageUrl: "./imagesdata/profesorx2.jpg",
     facts: {
       alignment: "Héroe",
     }
@@ -135,7 +135,7 @@ export default [
     name: "Quicksilver",
     shortDescription: "Mutante con supervelocidad.",
     description: "Quicksilver posee la capacidad de moverse a velocidades increíbles, superando cualquier límite humano. Es un activo miembro de los X-Men.",
-    imageUrl: "./imagesdata/Quicksilver.jpg",
+    imageUrl: "./imagesdata/quicksilver2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -145,7 +145,7 @@ export default [
     name: "Sunspot",
     shortDescription: "Puede absorber y canalizar la energía solar para aumentar su fuerza.",
     description: "Sunspot tiene la capacidad de absorber la energía solar y canalizarla para aumentar su fuerza física. Es un miembro valioso de los X-Men.",
-    imageUrl: "./imagesdata/Sunspot.jpg",
+    imageUrl: "./imagesdata/sunspot2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -165,7 +165,7 @@ export default [
     name: "Tormenta",
     shortDescription: "Controla el clima y es una de las líderes de los X-Men.",
     description: "Tormenta tiene la capacidad de controlar y manipular el clima, y ha sido una líder destacada en los X-Men. Su presencia es fundamental en el equipo.",
-    imageUrl: "./imagesdata/Tormenta.jpg",
+    imageUrl: "./imagesdata/tormenta2.jpg", 
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -175,7 +175,7 @@ export default [
     name: "Warpath",
     shortDescription: "Mutante con habilidades físicas mejoradas y habilidad de vuelo.",
     description: "Warpath posee habilidades físicas mejoradas y la capacidad de volar, convirtiéndose en un formidable miembro de los X-Men.",
-    imageUrl: "./imagesdata/Warpath.jpg",
+    imageUrl: "./imagesdata/warpath2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -195,7 +195,7 @@ export default [
     name: "Wolverine",
     shortDescription: "Tiene garras retráctiles y sentidos agudos.",
     description: "Wolverine, también conocido como Logan, es conocido por sus garras retráctiles, sentidos agudos y habilidades regenerativas. Es un miembro fundamental de los X-Men.",
-    imageUrl: "./imagesdata/Wolverine.jpg",
+    imageUrl: "./imagesdata/wolverine2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
@@ -205,7 +205,7 @@ export default [
     name: "Emma Frost",
     shortDescription: "Telepata y antigua villana convertida en X-Men.",
     description: "Emma Frost es una poderosa telepata que ha pasado de ser una villana a ser una valiosa miembro de los X-Men. Su habilidad telepática es inigualable.",
-    imageUrl: "./imagesdata/emma frost.jpg",
+    imageUrl: "./imagesdata/emmafrost2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
     }
