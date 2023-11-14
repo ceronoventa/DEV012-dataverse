@@ -45,7 +45,7 @@ export default [
     name: "Centinela",
     shortDescription: "Máquinas gigantes creadas para cazar y contener mutantes.",
     description: "Los Centinelas son máquinas gigantes creadas por Bolivar Trask con el propósito de cazar y contener a los mutantes. Son un peligro constante en el mundo de los X-Men.",
-    imageUrl: "./imagesdata/Centinela.jpg",
+    imageUrl: "./imagesdata/centinela2.jpg",
     facts: {
       alignment: "Neutral",
     }
@@ -155,7 +155,7 @@ export default [
     name: "Toad",
     shortDescription: "Mutante con habilidades físicas mejoradas, incluida una lengua prensil.",
     description: "Toad posee habilidades físicas mejoradas, incluida una lengua prensil que utiliza en combate. Aunque ha sido un antagonista, su historia es compleja.",
-    imageUrl: "./imagesdata/Toad.jpg",
+    imageUrl: "./imagesdata/toad2.jpg",
     facts: {
       alignment: "Villano",
     }

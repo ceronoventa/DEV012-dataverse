@@ -9,17 +9,17 @@ body {
     background-image: url('imagesdata/futuro.jpeg');
 }
 
+h1 {
+    font-size: 2em; /* Ajusta el tamaño según tus preferencias */
+    color: #333; /* Ajusta el color según tus preferencias */
+    text-align: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+  }
+
 img {
    max-width: 100%;
    max-height: 100%;
-}
-
-header {
-    font-style: inherit;
-    text-align: center;
-    color: blanchedalmond;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
 }
 
 label {
