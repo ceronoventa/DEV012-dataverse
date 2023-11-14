@@ -8,6 +8,8 @@ export default [
     imageUrl: "./imagesdata/beast.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino",
+      powers: "Habilidades físicas sobrehumanas, inteligencia genial."
     }
   },
   {
@@ -18,6 +20,8 @@ export default [
     imageUrl: "./imagesdata/Bishop.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino",
+      powers: "Absorción y redirección de energía."
     }
   },
   {
@@ -28,6 +32,8 @@ export default [
     imageUrl: "./imagesdata/blink2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Femenino", 
+      powers: "Creación de portales teleportadores."
     }
   },
   {
@@ -38,6 +44,8 @@ export default [
     imageUrl: "./imagesdata/Bolivar Trask.jpg",
     facts: {
       alignment: "Neutral",
+      gender: "Masculino", // Agregado
+      powers: "Genio científico" // Agregado
     }
   },
   {
@@ -48,6 +56,8 @@ export default [
     imageUrl: "./imagesdata/centinela2.jpg",
     facts: {
       alignment: "Neutral",
+      gender: "ninguno",
+      powers: "Habilidades de combate avanzadas" // Agregado
     }
   },
   {
@@ -58,6 +68,8 @@ export default [
     imageUrl: "./imagesdata/Colossus.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino", // Agregado
+      powers: "Transformación en acero orgánico" // Agregado
     }
   },
   {
@@ -68,6 +80,8 @@ export default [
     imageUrl: "./imagesdata/havok2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino", // Agregado
+      powers: "Manipulación de energía cósmica" // Agregado
     }
   },
   {
@@ -78,6 +92,8 @@ export default [
     imageUrl: "./imagesdata/iceman2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino", // Agregado
+      powers: "Manipulación del hielo" // Agregado
     }
   },
   {
@@ -88,6 +104,8 @@ export default [
     imageUrl: "./imagesdata/kitty2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Femenino", // Agregado
+      powers: "Intangibilidad y habilidades informáticas" // Agregado
     }
   },
   {
@@ -98,6 +116,8 @@ export default [
     imageUrl: "./imagesdata/magneto2.jpg",
     facts: {
       alignment: "Villano",
+      gender: "Masculino", // Agregado
+      powers: "Control del magnetismo" // Agregado
     }
   },
   {
@@ -108,6 +128,8 @@ export default [
     imageUrl: "./imagesdata/gambito2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino", // Agregado
+      powers: "Carga de objetos con energía explosiva"
     }
   },
   {
@@ -115,9 +137,11 @@ export default [
     name: "Mystique",
     shortDescription: "Mystique puede cambiar de forma.",
     description: "Mystique tiene la capacidad única de cambiar su apariencia física a voluntad.",
-    imageUrl: "./imagesdata//mystique2.jpg",
+    imageUrl: "./imagesdata/mystique2.jpg",
     facts: {
       alignment: "Neutral",
+      gender: "Femenino",
+      powers: "Mimetismo y cambio de forma"
     }
   },
   {
@@ -128,6 +152,8 @@ export default [
     imageUrl: "./imagesdata/profesorx2.jpg",
     facts: {
       alignment: "Héroe",
+      gender: "Masculino",
+      powers: "Telepatía y habilidades psíquicas"
     }
   },
   {
@@ -138,6 +164,8 @@ export default [
     imageUrl: "./imagesdata/quicksilver2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino",
+      powers: "Supervelocidad"
     }
   },
   {
@@ -148,6 +176,8 @@ export default [
     imageUrl: "./imagesdata/sunspot2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino",
+      powers: "Absorción y canalización de energía solar"
     }
   },
   {
@@ -158,6 +188,8 @@ export default [
     imageUrl: "./imagesdata/toad2.jpg",
     facts: {
       alignment: "Villano",
+      gender: "Masculino",
+      powers: "Habilidades físicas mejoradas y lengua prensil"
     }
   },
   {
@@ -165,9 +197,11 @@ export default [
     name: "Tormenta",
     shortDescription: "Controla el clima y es una de las líderes de los X-Men.",
     description: "Tormenta tiene la capacidad de controlar y manipular el clima, y ha sido una líder destacada en los X-Men. Su presencia es fundamental en el equipo.",
-    imageUrl: "./imagesdata/tormenta2.jpg", 
+    imageUrl: "./imagesdata/tormenta2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Femenino",
+      powers: "Control del clima"
     }
   },
   {
@@ -178,6 +212,8 @@ export default [
     imageUrl: "./imagesdata/warpath2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino",
+      powers: "Habilidades físicas mejoradas y vuelo"
     }
   },
   {
@@ -188,6 +224,8 @@ export default [
     imageUrl: "./imagesdata/William Stryker.jpg",
     facts: {
       alignment: "Villano",
+      gender: "Masculino",
+      role: "Líder militar anti-mutante"
     }
   },
   {
@@ -198,6 +236,8 @@ export default [
     imageUrl: "./imagesdata/wolverine2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino",
+      powers: "Garras retráctiles, sentidos agudos y regeneración"
     }
   },
   {
@@ -208,6 +248,8 @@ export default [
     imageUrl: "./imagesdata/emmafrost2.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Femenino",
+      powers: "Telepatía"
     }
   },
   {
@@ -218,6 +260,8 @@ export default [
     imageUrl: "./imagesdata/rogue.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Femenino",
+      powers: "Absorción de poderes, recuerdos y habilidades"
     }
   },
   {
@@ -228,6 +272,8 @@ export default [
     imageUrl: "./imagesdata/Nightcrawler.jpg",
     facts: {
       alignment: "Héroe (X-Men)",
+      gender: "Masculino",
+      powers: "Teletransportación"
     }
   },
 ];
