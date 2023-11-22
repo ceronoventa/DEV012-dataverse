@@ -9,7 +9,7 @@ body {
     background-image: url('imagesdata/futuro.jpeg');
 }
 
-h1 {
+header {
     font-size: 2em; /* Ajusta el tamaño según tus preferencias */
     color: #fcfafa; /* Ajusta el color según tus preferencias */
     text-align: center;
@@ -61,6 +61,17 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
+}
+
+li {
+    ul {
+        display: flex;
+        margin: revert-layer;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style: none;
+    }
 }
 
 
@@ -135,3 +146,8 @@ ul {
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+ }  

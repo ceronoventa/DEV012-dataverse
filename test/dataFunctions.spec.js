@@ -1,18 +1,31 @@
-import { example, anotherExample } from '../src/dataFunctions.js';
+import { filterData } from '../src/dataFunctions.js';
+import { sortData } from '../src/dataFunctions.js';
 import { data as fakeData } from './data.js';
+import { dataSort as fakeDatta } from './data.js';
 
-console.log(fakeData);
 
-describe('example', () => {
 
-  it('returns `example`', () => {
-    expect(example()).toBe('example');
+describe('filterData', () => {
+
+  it('campoPersonajes', () => {
+    const filtradoAlignment = filterData(
+      fakeData,
+      "alignment",
+      "gender"
+    );
+    expect(filtradoAlignment.length).toBe(3);
   });
 });
 
-describe('anotherExample', () => {
+describe("sortData", () => {
 
-  it('returns `anotherExample`', () => {
-    expect(anotherExample()).toBe('OMG');
+  it("alfabetico", () => {
+    const ordenDesc = sortData(
+      fakeDatta,
+      "name",
+    );
+    const names = [...ordenDesc];
+    const namesOrdenado = names.sort();
+    expect(namesOrdenado).toEqual(names);
   });
 });

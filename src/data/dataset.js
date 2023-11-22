@@ -21,7 +21,8 @@ export default [
     imageUrl: "./imagesdata/centinela2.jpg",
     facts: {
       alignment: "Neutral",
-      abilities: "Habilidades de combate avanzadas"
+      gender: "ninguno",
+      powers: "Habilidades de combate avanzadas" 
     }
   },
   {
