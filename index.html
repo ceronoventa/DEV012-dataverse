@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+    
+      <title>XMEN WORLD</title>
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      <div class="contenedor">
+        <div class="contenedor-tarjetas"></div>
+      </div>
+      <main>
+        <header>
+          <h1><img src="./imagesdata/xmen.png" alt="xmen"/></h1>
+          </header>
+        <h2>Elige un personaje</h2>
+        <section>
+          <label for = "filtros">Filtrar por</label>
+          <select name="alignment" data-testid="select-filter">
+            <option value="Héroe (X-Men)">Héroe (X-Men)</option>
+            <option value="Villano">Villano</option>
+            <option value="Neutral">Neutral</option>
+          </select>
+          <label>Ordenar por</label>
+          <select name="name" data-testid="select-sort">
+            <option value="asc">A - Z</option>
+            <option value="desc">Z - A</option>
+          </select>
+          <button data-testid="button-clear">Limpiar</button>
+        </section>
+      </main>
+
+     
+      <div id ="root" ></div>
+
+      <footer>
+         By Camila Palma
+        </footer>
+      <script src="main.js" type="module"></script>
+    </body>
+  </html>
+ 
+
